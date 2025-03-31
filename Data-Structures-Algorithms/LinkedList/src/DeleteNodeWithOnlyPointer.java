@@ -14,7 +14,7 @@ public class DeleteNodeWithOnlyPointer {
     public static void printlist(Node head) {
         Node curr = head;
         while (curr != null) {
-            System.out.print(curr.val + " ");
+            System.out.print(curr.data + " ");
             curr = curr.next;
         }
         System.out.println();
@@ -22,7 +22,7 @@ public class DeleteNodeWithOnlyPointer {
 
     public static void deleteNode(Node node) {
         Node temp = node.next;
-        node.val = temp.val;
+        node.data = temp.data;
         node.next = temp.next;
     }
 }
