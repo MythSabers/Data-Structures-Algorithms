@@ -1,7 +1,6 @@
 import tree.Node;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 class LevelOrderTraversalSolution {
     void printLevel(Node root) {
